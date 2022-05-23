@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail Review</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__left-menu">
+            <button>
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+
+            <img class="gmail-logo"
+                src="https://cdn.vox-cdn.com/thumbor/8fWz6qpiMYMsZhY4vrc9Vhl5yL8=/0x110:1320x770/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/21939811/newgmaillogo.jpg"
+                alt="gmail logo" width="30" />
+        </div>
+
+        <div class="header__search">
+            <div class="header__search__search-icon search-side">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+            <input class="header__search__bar" type="search" placeholder="Search mail" />
+            <div class="header__search__expand search-side">
+                <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+            </div>
+        </div>
+
+        <div class="header__right-menu">
+            <button>
+                <span class="material-symbols-outlined">
+                    help
+                </span>
+            </button>
+            <button>
+                <span class="material-symbols-outlined">
+                    settings
+                </span>
+            </button>
+            <button>
+                <span class="material-symbols-outlined">
+                    apps
+                </span>
+            </button>
+            <button class="header__right-menu__profile">
+                <div class="container">
+                    <span class="name">Arbenit.B</span>
+                    <img src="profesional.jpg" alt="" width="20" />
+                </div>
+            </button>
+        </div>
+    </header>
+
+    <aside class="left-menu">
+        <nav class="left-menu__navigation">
+            <menu class="left-menu__items">
+                <li class="left-menu__item">
+                    <a class="left-menu__item__link inbox" href="#">
+                        <span class="material-symbols-outlined icon">
+                            inbox
+                        </span>
+                        <span>Inbox</span>
+                        <span>8</span>
+                    </a>
+                </li>
+                <li class="left-menu__item">
+                    <a class="left-menu__item__link" href="#">
+                        <span class="material-symbols-outlined icon">
+                            star
+                        </span>
+                        <span>Starred</span>
+                        <span>3</span>
+                    </a>
+                </li>
+                <li class="left-menu__item">
+                    <a class="left-menu__item__link" href="#">
+                        <span class="material-symbols-outlined icon">
+                            schedule
+                        </span>
+                        <span>Snoozed</span>
+                        <span>2</span>
+                    </a>
+                </li>
+                <li class="left-menu__item">
+                    <a class="left-menu__item__link" href="#">
+                        <span class="material-symbols-outlined icon">
+                            label_important
+                        </span>
+                        <span>Important</span>
+                        <span>1</span>
+                    </a>
+                </li>
+            </menu>
+        </nav>
+        <section class="left-menu__chat">
+            Chat
+        </section>
+    </aside>
+
+    <main class="emails">
+        <ul class="emails__email-list">
+            <li class="emails__email-item selected">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read ">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+            <li class="emails__email-item read">
+                <div class="emails__email-item__read">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__starred">
+                    <input type="checkbox" />
+                </div>
+                <div class="emails__email-item__sender">Sender info</div>
+                <div class="emails__email-item__title">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+                    provident.
+                </div>
+                <div class="emails__email-item__date">Nov 11</div>
+            </li>
+
+
+        </ul>
+    </main>
+
+    <aside class="settings">
+        <h4>Quick settings</h4>
+        <br>
+        <p class="settings-button">See all settings</p>
+        <br>
+        <p class="setting-density">DENSITY</p>
+        <ul class="setting-list">
+            <li class="settings-list">Default</li>
+            <li class="settings-list">Comfortable</li>
+            <li class="settings-list">Compact</li>
+        </ul>
+        <p class="setting-density">THEME</p>
+    </aside>
+
+    <menu class="shortcuts">
+        <span class="material-symbols-outlined">
+            calendar_month
+        </span>
+        <span class="material-symbols-outlined">
+            speaker_notes
+        </span>
+        <span class="material-symbols-outlined">
+            browse_gallery
+        </span>
+
+    </menu>
+</body>
+
+</html>
